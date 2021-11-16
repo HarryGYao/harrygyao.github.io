@@ -53,12 +53,11 @@ round-avatar: true
 social-network-links:
   email: "wentaoyao2023@u.northwestern.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
-  whatsapp: 15551212
+#   facebook: deanattali
+#   github: daattali
+#   twitter: daattali
+#   patreon: DeanAttali
+#   youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
 #  linkedin: daattali
