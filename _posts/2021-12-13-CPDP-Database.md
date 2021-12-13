@@ -2,7 +2,7 @@
 layout: post
 title: Data Science Seminar on CPDP Database
 subtitle: by Team The Dapper Squirrels
-cover-img: /assets/img/CPDB/cpdb-1.png
+cover-img: /assets/img/CPDB/cpdb-2.png
 thumbnail-img: /assets/img/CPDB/cpdb-1.png
 tags: [CPDB, Data Science]
 ---
