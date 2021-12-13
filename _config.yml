@@ -21,10 +21,10 @@ author: Wentao Yao
 ###############################################
 
 navbar-links:
-  Homepage: "index"
   About Me: "aboutme"
   Project:
     - CPDP Database: "2021-12-13-CPDP-Database"
+  Homepage: "index"
 
 ################
 # --- Logo --- #
