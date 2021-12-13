@@ -21,6 +21,7 @@ author: Wentao Yao
 ###############################################
 
 navbar-links:
+  Homepage: "index"
   About Me: "aboutme"
   Project:
     - Data Science Seminar on CPDP Database: "https://github.com/NU-DSS-The-Dapper-Squirrels/The-Dapper-Squirrels"
