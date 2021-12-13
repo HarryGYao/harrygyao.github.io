@@ -22,10 +22,8 @@ description: Wentao Yao
 
 navbar-links:
   About Me: "Wentao Yao"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Project:
+   -Data Science Seminar on CPDP Database: "https://github.com/NU-DSS-The-Dapper-Squirrels/The-Dapper-Squirrels"
 
 ################
 # --- Logo --- #
@@ -59,12 +57,12 @@ social-network-links:
 #   patreon: DeanAttali
 #   youtube: c/daattali
 #  medium: yourname
-#  reddit: yourname or r/yoursubreddit
-#  linkedin: daattali
+#  reddit: yourname
+ linkedin: Wentao Yao
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
-#  instagram: deanat78
+ instagram: harrygyao
 #  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
@@ -102,7 +100,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+# url-pretty: "MyWebsite.com"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
