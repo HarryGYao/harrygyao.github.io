@@ -4,13 +4,8 @@ title: About me
 subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
-
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
+My name is Wentao Yao. I am pursuing a master’s degree in computer science with an artificial intelligence specialization at Northwestern University, and my career aspiration is to find a job in a company that will let me use my skills and imagination to break new ground in the field. My research interests include machine learning, computer vision, and natural language processing.
 
 ### My story
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+None
