@@ -11,4 +11,4 @@ tags: [CPDB, Data Science]
 
 Misconduct analysis in terms of different locations and communities can be valuable. Is there over-policing in low socio-eco status neighborhoods? We could compare the low-income area data with high in-come area data. The income of the neighbor could be a factor to influence the “victim” narrative (complaint report). We plan to dive deep into the relationship between location, income level, and police misconduct.
 
-Click [HREE](https://nu-dss-the-dapper-squirrels.github.io/The-Dapper-Squirrels/) to see more about the project
+Click [HREE](https://nu-dss-the-dapper-squirrels.github.io/The-Dapper-Squirrels/){:target="_blank"} to see more about the project
