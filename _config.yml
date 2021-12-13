@@ -21,7 +21,7 @@ description: Wentao Yao
 ###############################################
 
 navbar-links:
-  About Me: "Wentao Yao"
+  About Me: "aboutme"
   Project:
     - Data Science Seminar on CPDP Database: "https://github.com/NU-DSS-The-Dapper-Squirrels/The-Dapper-Squirrels"
 
