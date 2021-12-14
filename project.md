@@ -5,8 +5,8 @@ subtitle: Here are the Projects
 ---
 <div id="archives">
 
-
-{% for category in site.categories.Other %}
+{% assign sorted_cats = site.categories | sort %}
+{% for category in sorted_cats %}
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <div id="#{{ category_name | slugize }}"></div>
