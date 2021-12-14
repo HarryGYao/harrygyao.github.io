@@ -21,7 +21,7 @@ author: Wentao Yao
 ###############################################
 
 navbar-links:
-  About Me: "_pages/aboutme"
+  About Me: "/_pages/aboutme"
   Project:
     - CPDP Database: "https://nu-dss-the-dapper-squirrels.github.io/The-Dapper-Squirrels/"
     - VEX 2016:  "https://harrygyao.github.io/VEX2016/"
