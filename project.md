@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Course Project
-subtitle: Here is the Course Project
+title: Project
+subtitle: Here are the Projects
 ---
 <div id="archives">
 {% for category in site.categories %}

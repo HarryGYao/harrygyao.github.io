@@ -6,7 +6,7 @@ cover-img: /assets/img/CPDB/cpdb-2.png
 thumbnail-img: /assets/img/CPDB/cpdb-1.png
 gh-repo: NU-DSS-The-Dapper-Squirrels/The-Dapper-Squirrels
 gh-badge: [star, fork, follow]
-categories:['Course Project']
+categories:"Course Project"
 tags: [CPDB, Data Science]
 ---
 
