@@ -8,10 +8,10 @@ categories:
     - Course Project
 tags: [Covid-19]
 ---
+
 Currently, we are living in a different world because of the Covid-19 pandemic. The effects of Covid-19 have been detrimental to the world and we are still reeling from it. Loss of innumerable lives, loss of livelihoods and damage to economies are some of the calamitous effects of the pandemic. 
 
 So, our group has decided to work on a topic related to Covid-19. There are several research areas associated with Covid-19. Our work will be focused around Covid-19 detection in patients. This will be primarily a classification project.
-
 
 For the image classification, we will be following a dual pathway:
 We will extract features from the images and then use these as inputs to ML techniques such as KNN and Logistic Regression.
