@@ -20,3 +20,4 @@ content.style.padding = 0;
 content.style.margin = 0;
 fullElement.style.height = content.scrollHeight + "px";
 </script>
+ 
