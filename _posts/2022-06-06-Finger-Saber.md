@@ -3,7 +3,7 @@ layout: post
 title: Finger Saber
 subtitle: Computer Vision Game
 cover-img: /assets/img/finger_saber/beatsaber.png
-thumbnail-img: /assets\img\finger_saber\workflow.png
+thumbnail-img: /assets/img/finger_saber/workflow.png
 gh-repo: HarryGYao/Finger-Saber
 gh-badge: [star, fork, follow]
 categories:
