@@ -2,46 +2,38 @@
 layout: post
 title: Finger Saber
 subtitle: Computer Vision Game
-cover-img: /assets/img/CPDB/cpdb-2.png
-thumbnail-img: /assets/img/CPDB/cpdb-1.png
+cover-img: /assets/img/finger_saber/beatsaber.png
+thumbnail-img: /assets\img\finger_saber\workflow.png
 gh-repo: HarryGYao/Finger-Saber
 gh-badge: [star, fork, follow]
 categories:
     - Course Project
 tags: [Computer Vision]
 ---
-
-
-Click [HERE](https://nu-dss-the-dapper-squirrels.github.io/The-Dapper-Squirrels/){:target="_blank"} to see more about the project.
-
-
-
-#Project description
-
 Augmented reality (AR) is the first thought of the direction of computer vision game comes in my mind. AR allows us to interact with visual object in the real-world environment. As a video game player, I believe the most interactive game must be the rhythm game. Therefore, my project goal is developing a rhythm game using camara as the input source based on the similar game play mode like the game named beat saber.
 
 **Rhythm game**
 <center>
-<img width = '510' height ='350' src ="../assets/img/finger_saber/r936332_9861575.jpg"/>
+<img width = '510' height ='350' src ="../assets/img/finger_saber/r936332_9861575.jpg"/></center>
 
 
-Fig. 1. Traditional rhythm game.</center>
+<center>Fig. 1. Traditional rhythm game.</center>
 
 A rhythm game, sometimes known as a rhythm action game, is a music-themed action video game that tests the player\'s sense of rhythm. The genre\'s games usually revolve around dance or the simulated performance of musical instruments, and players are required to push buttons in a specific order as shown on the screen. While traditional game controllers can be utilized as input devices, rhythm games frequently include innovative game controllers that mimic musical instruments.
 
 **Beat Saber**
 <center>
-<img width = '510' height ='350' src ="../assets/img/finger_saber/beatsaber.png"/>
+<img width = '510' height ='350' src ="../assets/img/finger_saber/beatsaber.png"/></center>
 
-Fig. 2. Beat Saber.</center>
+<center>Fig. 2. Beat Saber.</center>
 
 
 I am inspired by a rhythm game named Beat Saber. The player has a blue and a red lightsaber in each hand. When the music starts, small bricks with colored arrows start gliding toward the player, similar to other rhythm games, and it is up to the player to hit the bricks in the direction indicated by the arrow. There will be impediments in the path that the player must avoid with the body and sabers. To deliver the same play mode, I detect the finger of the player and use the finger as the lightsaber to hit the bricks.
 
 
-#Design
+# Design
 
-##Packages
+## Packages
 
 **OpenCV**
 
@@ -55,7 +47,7 @@ MediaPipe is a framework for creating machine learning pipelines for time-series
 
 Pygame is a collection of Python modules for making video games. On top of the excellent SDL library, Pygame adds capabilities. This allows you to use Python to construct full-featured games and multimedia programs. [5]
 
-##Class Design
+## Class Design
 
 In order to decouple and make subsequent development easier, I have designed the following three classes:
 
@@ -73,16 +65,16 @@ This class implements the brick showing on the screen beside containing the text
 
 This is a factory class that produces or hold different brick. It saves the brick's position on the screen and the time when the brick appears.
 
-##Workflow
+## Workflow
 
 The workflow of the game is: First, getting a frame from the camera by OpenCV and then detecting the hand by mediapipe. For each hand, detect the collision with brick on the screen. Finally, Change the brick status, record the score, and move to the next frame.
 To be more specific on how the brick status change, the brick will change to a different texture and return a different score based on how much time the lifespan remains when the play hits the brick. Once the Sheet class generates a brick, that brick will exist for one second. If the player hits the brick in +/- 0.4 seconds, the brick will change to a correct green mark which indicates perfect timing and given a high score;  if the player hits the brick in +/- 0.8 seconds, the brick will change to a good blue mark which indicating good timing and given a middle score; if the player did not hit the brick in1 second, which means the brick is “dead” and will be self-destroyed, the brick would change to a missing yellow mark which indicating bad timing and given a negative score; if the player hit the brick in a wrong direction, no matter when the brick is hit, the brick will change to a red error mark which indicating wrong direction hit and given a negative score. After the brick changes its status to one of four, it will remain on the screen for another 0.7 seconds.
 
 
 <center>
-<img width = '510' height ='350' src ="../assets\img\finger_saber\workflow.png"/>
+<img width = '510' height ='350' src ="../assets\img\finger_saber\workflow.png"/></center>
 
-Fig. 3. The possible status of brick after hit.</center>
+<center>Fig. 3. The possible status of brick after hit.</center>
 
 
 
@@ -93,18 +85,18 @@ The first way is the detect if the finger crosses the correct boundary of the br
 
 
 <center>
-<img width = '310' height ='350' src ="../assets\img\finger_saber\Warcraft.png"/>
+<img width = '310' height ='350' src ="../assets\img\finger_saber\Warcraft.png"/></center>
 
-Fig. 4. Invisible Bunny in World of Warcraft</center>
+<center>Fig. 4. Invisible Bunny in World of Warcraft</center>
 
 
 
 A long time ago, I heard there was an invisible bunny method applied in the game of World of Warcraft [7]. In the World of Warcraft, most magic spells need to be cast on a target. However, some spells need to be untargeted. 
 
 <center>
-<img width = '510' height ='250' src ="../assets\img\finger_saber\arrow.png"/>
+<img width = '510' height ='250' src ="../assets\img\finger_saber\arrow.png"/></center>
 
-Fig. 5. Hitting in the right direction will always pass the invisible
+<center>Fig. 5. Hitting in the right direction will always pass the invisible
 brick</center>
 
 
@@ -118,32 +110,32 @@ Hence, the game designer sets those invisible bunnies as the cast target, and th
 The following is the gameplay interface UI. All textures and icons are designed by myself. The lightsaber is modified from the public domain picture [6] 
 
 <center>
-<img width = '100' height ='100' src ="../assets\img\finger_saber\boundary.png"/> <img width = '100' height ='100' src ="../assets\img\finger_saber\box.png"/>
+<img width = '100' height ='100' src ="../assets\img\finger_saber\boundary.png"/> <img width = '100' height ='100' src ="../assets\img\finger_saber\box.png"/></center>
 
-Fig. 6. a. Dotted box(left) b. Brick(right)</center>
+<center>Fig. 6. a. Dotted box(left) b. Brick(right)</center>
 
 
 
 <center>
-<img width = '100' height ='100' src ="../assets\img\finger_saber\perf.png"/> <img width = '100' height ='100' src ="../assets\img\finger_saber\good.png"/> <img width = '100' height ='100' src ="../assets\img\finger_saber\miss.png"/> <img width = '100' height ='100' src ="../assets\img\finger_saber\error.png"/>
+<img width = '100' height ='100' src ="../assets\img\finger_saber\perf.png"/> <img width = '100' height ='100' src ="../assets\img\finger_saber\good.png"/> <img width = '100' height ='100' src ="../assets\img\finger_saber\miss.png"/> <img width = '100' height ='100' src ="../assets\img\finger_saber\error.png"/></center>
 
-Fig. 7. Brick Status</center>
+<center>Fig. 7. Brick Status</center>
 
 From left to right on Fig. 7, they are the brick status texture for perfect time, good timing, missing, and wrong direction.
 
 ## 
 
 <center>
-<img width = '100' height ='100' src ="../assets\img\finger_saber\start.png"/> <img width = '100' height ='100' src ="../assets\img\finger_saber\restart.png"/> 
+<img width = '100' height ='100' src ="../assets\img\finger_saber\start.png"/> <img width = '100' height ='100' src ="../assets\img\finger_saber\restart.png"/> </center>
 
-Fig. 8. a. Start Button(left) b. Restart Button (right)</center>
+<center>Fig. 8. a. Start Button(left) b. Restart Button (right)</center>
 
 
 
 <center>
-<img width = '200' height ='150' src ="../assets\img\finger_saber\blue_light_saber.png"/> 
+<img width = '200' height ='150' src ="../assets\img\finger_saber\blue_light_saber.png"/> </center>
 
-Fig. 9. Lightsaber</center>
+<center>Fig. 9. Lightsaber</center>
 
 
 The original Fig. 7 has a white background, I removed it so it can be applied in the game.
@@ -155,7 +147,7 @@ To make the game more like the Beat Saber, I attached a lightsaber texture to th
 **The Demo and Analysis**\
 The following are the YouTube Video of the gameplay:
 
-[![VEX Worlds 2016](https://i.ytimg.com/vi/xiTpoShib70/hqdefault.jpg)](https://youtu.be/xiTpoShib70 "VEX Worlds 2016")
+[![VEX Worlds 2016](https://i.ytimg.com/vi/xiTpoShib70/hqdefault.jpg)](https://youtu.be/xiTpoShib70 "VEX Worlds 2016"){:target="_blank"}
 <center>Video 1. Demo</center>
 
 This is the Demo of the game. 
@@ -176,7 +168,7 @@ can sacrifice some display delay for more time to generate frames to
 make the game smoother. There should be a balance between the time delay
 and the FPS rate.
 
-
+Click [HERE](https://github.com/HarryGYao/Finger-Saber/){:target="_blank"} to see more about the project.
 
 
 
