@@ -10,6 +10,8 @@ categories:
     - Course Project
 tags: [Computer Vision]
 ---
+
+# Project description
 Augmented reality (AR) is the first thought of the direction of computer vision game comes in my mind. AR allows us to interact with visual object in the real-world environment. As a video game player, I believe the most interactive game must be the rhythm game. Therefore, my project goal is developing a rhythm game using camara as the input source based on the similar game play mode like the game named beat saber.
 
 **Rhythm game**
@@ -155,18 +157,9 @@ This is the Demo of the game.
 
 #Remarks and Future Work
 
-The first need to be solved in future work is direction detection.
-Currently, it works for most cases. However, when one finger is holding
-the hidden direction brick, and another finger hits the target brick in
-any direction will be considered a legal move. Secondly, the time of
-calculating the direction needs more experiment. I use my intuition to
-design this "fast" direction detection, but I never test if it is a fast
-way.
+The first need to be solved in future work is direction detection. Currently, it works for most cases. However, when one finger is holding the hidden direction brick, and another finger hits the target brick in any direction will be considered a legal move. Secondly, the time of calculating the direction needs more experiment. I use my intuition to design this “fast” direction detection, but I never test if it is a fast way. 
 
-Moreover, more studies can be done to improve the FPS. For example, we
-can sacrifice some display delay for more time to generate frames to
-make the game smoother. There should be a balance between the time delay
-and the FPS rate.
+Moreover, more studies can be done to improve the FPS. For example, we can sacrifice some display delay for more time to generate frames to make the game smoother. There should be a balance between the time delay and the FPS rate.
 
 Click [HERE](https://github.com/HarryGYao/Finger-Saber/){:target="_blank"} to see more about the project.
 
@@ -175,12 +168,19 @@ Click [HERE](https://github.com/HarryGYao/Finger-Saber/){:target="_blank"} to se
 # References
 
 [1] 	A. T. a. Games, "Frag Reel Friday: Rhythm Games (Part One)," ABC Technology and Games, 04 May 2012. [Online]. Available: https://www.abc.net.au/technology/articles/2012/05/04/3495499.htm. [Accessed 05 June 2022].
+
 [2] 	B. s. o. steam, "Beat saber on steam," steam, [Online]. Available: https://store.steampowered.com/app/620980/Beat_Saber/. [Accessed 05 June 2022].
+
 [3] 	OpenCV, "OpenCV," OpenCV, 04 November 2020. [Online]. Available: https://opencv.org/about/. [Accessed 05 June 2022].
+
 [4] 	Kukil, "Introduction to MediaPipe," 01 March 2022. [Online]. Available: https://learnopencv.com/introduction-to-mediapipe/. [Accessed 07 June 2022].
+
 [5] 	pygame, "pygame," pygame, [Online]. Available: https://www.pygame.org/wiki/about?parent=. [Accessed 05 June 2022].
+
 [6] 	Morhig11, "Invisible bunny rabbits?," Imgur, 06 April 2016. [Online]. Available: https://imgur.com/A5ThvWS. [Accessed 07 June 2022].
+
 [7] 	N. Grayson, "The invisible bunnies that power world of warcraft," Kotaku, 24 January 2017. [Online]. Available: https://kotaku.com/the-invisible-bunnies-that-power-world-of-warcraft-1791576630. [Accessed 07 June 2022].
+
 [8] 	1993MR2Turbo, "An original drawing of a "Lightsaber" made in Photoshop.," 11 March 2015. [Online]. Available: https://en.wikipedia.org/wiki/Lightsaber#/media/File:Lightsaber,_silver_hilt,_blue_blade.png. [Accessed 05 June 2022].
 
 
