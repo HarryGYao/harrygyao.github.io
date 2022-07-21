@@ -3,7 +3,7 @@ layout: post
 title: COVID-19 Twitter Data Analysis
 subtitle: Vaccines Tweets
 cover-img: /assets/img/covid_tweets/7.png
-thumbnail-img: /assets/img/covid_tweets/1.png
+thumbnail-img: /assets/img/covid_tweets/2.png
 categories:
     - Course Project
 tags: [Twitter Analysis, Data Science]
@@ -30,7 +30,7 @@ The dataset, nltk and sklearn package, is used in this report for analysis. The 
 
 # The Result and Analysis
 
-<center><img width = '600' height ='310' src ="../assets/img/covid_tweets/2.png"/></center>
+<center><img width = '600' height ='320' src ="../assets/img/covid_tweets/2.png"/></center>
 
 <center>Fig2. Geolocation information of tweets.</center>
 
@@ -38,7 +38,7 @@ In this dataset, for the top 30 locations, half of the tweets come from India, N
 the rest of the world. It is evident that the geolocation information needs more cleaning because 
 some of them use state-level like Los Angeles, California, while others may in country-level like 
 India. This problem will talk about it in the later section.
-<center><img width = '600' height ='310' src ="../assets/img/covid_tweets/3.png"/></center>
+<center><img width = '600' height ='320' src ="../assets/img/covid_tweets/3.png"/></center>
 <center>Fig3. User social media platform of tweets.</center>
 
 For the social media platform, a quarter of the users use Android, a quarter of the user use iPhone, 
