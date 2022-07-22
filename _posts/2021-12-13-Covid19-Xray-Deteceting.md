@@ -25,23 +25,23 @@ The details of the data will be discussed in the subsections.
   
 **Image Classification**
 - Dataset URL:
-  - https://www.kaggle.com/andyczhao/covidx-cxr2
+  - [https://www.kaggle.com/andyczhao/covidx-cxr2/](https://www.kaggle.com/andyczhao/covidx-cxr2/){:target="_blank"}
+
   - research paper of the dataset:
-  - https://www.nature.com/articles/s41598-020-76550-z
+  - [https://www.nature.com/articles/s41598-020-76550-z](https://www.nature.com/articles/s41598-020-76550-z){:target="_blank"}
 - Dataset URL:
-  - https://www.kaggle.com/mehradaria/covid19-lung-ct-scans
+  - [https://www.kaggle.com/mehradaria/covid19-lung-ct-scans](https://www.kaggle.com/mehradaria/covid19-lung-ct-scans){:target="_blank"}
   - research paper of the dataset:
-  - https://www.jmir.org/2021/4/e27468
-  - 
+  - [https://www.jmir.org/2021/4/e27468](https://www.jmir.org/2021/4/e27468){:target="_blank"}
 **Audio Classification**
 - Dataset URL:
-  - https://www.kaggle.com/andrewmvd/covid19-cough-audio-classification
+  - [https://www.kaggle.com/andrewmvd/covid19-cough-audio-classification](https://www.kaggle.com/andrewmvd/covid19-cough-audio-classification){:target="_blank"}
   - research paper of the dataset:
-  - https://www.nature.com/articles/s41597-021-00937-4
+  - [https://www.nature.com/articles/s41597-021-00937-4](https://www.nature.com/articles/s41597-021-00937-4){:target="_blank"}
 - Dataset URL:
-  - https://github.com/iiscleap/Coswara-Data
+  - [https://github.com/iiscleap/Coswara-Data](https://github.com/iiscleap/Coswara-Data){:target="_blank"}
   - Research paper of the dataset:
-  - https://arxiv.org/abs/2005.10548
+  - [https://arxiv.org/abs/2005.10548](https://arxiv.org/abs/2005.10548){:target="_blank"}
 
 # Image Classification
 
