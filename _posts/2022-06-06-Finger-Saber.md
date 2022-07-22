@@ -145,7 +145,7 @@ The original Fig. 9 has a white background, I removed it so it can be applied in
 
 To make the game more like the Beat Saber, I attached a lightsaber texture to the index finger. There is not too much math on attaching the lightsaber to the finger. Basically, I choose two landmarks of the hand, which are given by the mediapipe. Then use arctan to calculate the angle and rotate the lightsaber to plot it on the index finger.
 
-**The Demo and Analysis**\
+**Demo**\
 The following are the YouTube Video of the gameplay:
 
 [![VEX Worlds 2016](https://i.ytimg.com/vi/xiTpoShib70/hqdefault.jpg)](https://youtu.be/xiTpoShib70 "VEX Worlds 2016"){:target="_blank"}
