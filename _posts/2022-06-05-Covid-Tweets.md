@@ -5,7 +5,7 @@ subtitle: Vaccines Tweets
 cover-img: /assets/img/covid_tweets/7.png
 thumbnail-img: /assets/img/covid_tweets/2.png
 categories:
-    - Course Project
+    - Project
 tags: [Twitter Analysis, Data Science]
 ---
 

@@ -1,32 +1,29 @@
 ---
 layout: post
-title: Data Science Seminar on CPDP Database
+title: Citizen’s Police Data Project
 subtitle: with The Dapper Squirrels
 cover-img: /assets/img/CPDB/cpdb-2.png
 thumbnail-img: /assets/img/CPDB/cpdb-1.png
 gh-repo: NU-DSS-The-Dapper-Squirrels/The-Dapper-Squirrels
 gh-badge: [star, fork, follow]
 categories:
-    - Course Project
+    - Project
 tags: [CPDB, Data Science]
 ---
 
-# Data Science Seminar on CPDP Database
 #### Team: the dapper squirrels
 
 ## Table of Contents
 
-- [Data Science Seminar on CPDP Database](#data-science-seminar-on-cpdp-database)
-      - [Team: the dapper squirrels](#team-the-dapper-squirrels)
-  - [Table of Contents](#table-of-contents)
-  - [Theme](#theme)
-  - [Relational Analysis Questions](#relational-analysis-questions)
-  - [Verification Technique](#verification-technique)
-    - [Visualization](#visualization)
-    - [Interactive Visualization](#interactive-visualization)
-    - [Graph Analytics](#graph-analytics)
-    - [NLP models](#nlp-models)
-  - [References](#references)
+- [Table of Contents](#table-of-contents)
+- [Theme](#theme)
+- [Relational Analysis Questions](#relational-analysis-questions)
+- [Verification Technique](#verification-technique)
+  - [Visualization](#visualization)
+  - [Interactive Visualization](#interactive-visualization)
+  - [Graph Analytics](#graph-analytics)
+  - [NLP models](#nlp-models)
+- [References](#references)
 
 ## Theme
 

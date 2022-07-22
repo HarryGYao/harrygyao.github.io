@@ -7,7 +7,7 @@ thumbnail-img: /assets/img/finger_saber/workflow.png
 gh-repo: HarryGYao/Finger-Saber
 gh-badge: [star, fork, follow]
 categories:
-    - Course Project
+    - Project
 tags: [Computer Vision]
 ---
 

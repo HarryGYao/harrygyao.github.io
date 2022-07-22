@@ -5,7 +5,7 @@ subtitle: by X-ray on Lung
 cover-img: /assets/img/covid19/cover.png
 thumbnail-img: /assets/img/covid19/thumbnail.png
 categories:
-    - Course Project
+    - Project
 tags: [Covid-19]
 ---
 
