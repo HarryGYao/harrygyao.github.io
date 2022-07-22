@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Covid-19 Detection
+title: COVID-19 Detection
 subtitle: by X-ray on Lung
 cover-img: /assets/img/covid19/cover.png
 thumbnail-img: /assets/img/covid19/thumbnail.png
