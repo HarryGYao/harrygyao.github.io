@@ -26,7 +26,6 @@ The details of the data will be discussed in the subsections.
 **Image Classification**
 - Dataset URL:
   - [https://www.kaggle.com/andyczhao/covidx-cxr2/](https://www.kaggle.com/andyczhao/covidx-cxr2/){:target="_blank"}
-
   - research paper of the dataset:
   - [https://www.nature.com/articles/s41598-020-76550-z](https://www.nature.com/articles/s41598-020-76550-z){:target="_blank"}
 - Dataset URL:
