@@ -125,7 +125,6 @@ The following is the gameplay interface UI. All textures and icons are designed 
 
 From left to right on Fig. 7, they are the brick status texture for perfect time, good timing, missing, and wrong direction.
 
-## 
 
 <center>
 <img width = '100' height ='100' src ="../assets\img\finger_saber\start.png"/> <img width = '100' height ='100' src ="../assets\img\finger_saber\restart.png"/> </center>
@@ -140,7 +139,7 @@ From left to right on Fig. 7, they are the brick status texture for perfect time
 <center>Fig. 9. Lightsaber</center>
 
 
-The original Fig. 7 has a white background, I removed it so it can be applied in the game.
+The original Fig. 9 has a white background, I removed it so it can be applied in the game.
 
 **Finger Enhancement**
 
@@ -155,7 +154,7 @@ The following are the YouTube Video of the gameplay:
 This is the Demo of the game. 
 
 
-#Remarks and Future Work
+# Remarks and Future Work
 
 The first need to be solved in future work is direction detection. Currently, it works for most cases. However, when one finger is holding the hidden direction brick, and another finger hits the target brick in any direction will be considered a legal move. Secondly, the time of calculating the direction needs more experiment. I use my intuition to design this “fast” direction detection, but I never test if it is a fast way. 
 
