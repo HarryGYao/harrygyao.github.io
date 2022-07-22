@@ -32,6 +32,7 @@ The details of the data will be discussed in the subsections.
   - [https://www.kaggle.com/mehradaria/covid19-lung-ct-scans](https://www.kaggle.com/mehradaria/covid19-lung-ct-scans){:target="_blank"}
   - research paper of the dataset:
   - [https://www.jmir.org/2021/4/e27468](https://www.jmir.org/2021/4/e27468){:target="_blank"}
+
 **Audio Classification**
 - Dataset URL:
   - [https://www.kaggle.com/andrewmvd/covid19-cough-audio-classification](https://www.kaggle.com/andrewmvd/covid19-cough-audio-classification){:target="_blank"}
